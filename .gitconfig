@@ -1,0 +1,16 @@
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --graph --oneline --decorate --all
+	df = diff
+	ds = diff --staged
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	amend = commit --amend --no-edit
+	ss = stash show
+	ssi = stash show --include-untracked
+	sl = stash list
+	pr = !gh pr view --web
+	prc = !gh pr create --web
